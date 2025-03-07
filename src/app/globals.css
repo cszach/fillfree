@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  /* Use Radix UI's breakpoints. */
+
+  --breakpoint-xs: 520px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1640px;
+}
+
+.radix-themes {
+  --container-1: 380px;
+
+  --default-font-family: var(--font-inter);
+  --heading-font-family: var(--font-forum);
+}
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+
+  .fade-x {
+    background: linear-gradient(
+      to left,
+      var(--color-background),
+      transparent 64px,
+      transparent calc(100% - 64px),
+      var(--color-background)
+    );
+  }
+
+  .zoom-on-hover {
+    @apply hover:scale-105 transition-transform duration-300;
+  }
+}
+
+@keyframes infinite-carousel {
+  0% {
+    transform: translateX(var(--space-4));
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

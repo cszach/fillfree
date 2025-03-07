@@ -1,0 +1,16 @@
+{
+  "name": "FillFree",
+  "address": {
+    "line_1": "Carlson Library",
+    "line_2": "Innovation Suite, StudioX",
+    "city": "Rochester",
+    "state": "NY",
+    "postcode": "14627"
+  },
+  "social": {
+    "discord": "#",
+    "github": "#",
+    "instagram": "#",
+    "linkedin": "#"
+  }
+}
