@@ -3,30 +3,10 @@
 import Footer from "@/components/footer";
 import NavBar from "@/components/nav-bar";
 
-import ResponsiveContainer from "@/components/ui/responsive-container";
-import ResponsiveHeading from "@/components/ui/responsive-heading";
-import ResponsiveSection from "@/components/ui/responsive-section";
-
 import ContentWithHeading from "@/components/blocks/content-with-heading";
-import InfiniteCarousel from "@/components/blocks/infinite-carousel";
 import SingleColumnSection from "@/components/blocks/single-column-section";
-import TwoColumnSection from "@/components/blocks/two-column-section";
 
-import {
-  Badge,
-  Box,
-  Button,
-  Card,
-  Em,
-  Flex,
-  Grid,
-  Heading,
-  Inset,
-  Link,
-  ScrollArea,
-  Strong,
-  Text,
-} from "@radix-ui/themes";
+import { Box, Card, Flex, ScrollArea, Strong, Text } from "@radix-ui/themes";
 
 import { merriweather } from "@/fonts";
 
